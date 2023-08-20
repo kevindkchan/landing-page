@@ -41,13 +41,15 @@ button, .box {
 
 .header, .hero, .footer {
   background-color: #1f2937;
-  padding: 36px;
+  padding: 32px;
 }
 
 a, .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* Header section */
 
 .header {
   display: flex;
@@ -59,6 +61,8 @@ a, .secondary-text {
   font-size: 24px;
   color: #f9faf8;
 }
+
+/* Hero section */
 
 .hero {
   display: flex;
@@ -73,6 +77,8 @@ a, .secondary-text {
   color: #f9faf8;
 }
 
+/* Information section */
+
 .info {
   display: flex;
   flex-direction: column;
@@ -85,6 +91,53 @@ a, .secondary-text {
   font-size: 36px;
   color: #1f2937;
 }
+
+/* Quote section */
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  margin: 36px;
+}
+
+/* Box section */
+
+.box {
+  border-radius: 10px;
+  margin: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+  gap: 36px;
+}
+
+.box-text {
+  display:flex;
+  flex-direction: column;
+}
+
+.box-main-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.box-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Footer section */
 
 .footer {
   display: flex;

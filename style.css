@@ -33,7 +33,6 @@ button, .box {
 
 .header, .hero, .footer {
   background-color: #1f2937;
-  padding: 32px;
 }
 
 a, .secondary-text {
@@ -47,6 +46,9 @@ a, .secondary-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 12px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .header-logo {
@@ -60,6 +62,7 @@ a, .secondary-text {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+  padding: 48px;
 }
 
 .main-text {
@@ -94,14 +97,20 @@ a, .secondary-text {
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 36px;
+  padding: 48px;
+  gap: 16px;
 }
 
 .info-header-text {
   font-size: 36px;
   color: #1f2937;
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }
 
 .info-image {
@@ -110,6 +119,7 @@ a, .secondary-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-basis: 0;
   gap: 8px;
 }
 
@@ -173,4 +183,5 @@ a, .secondary-text {
   justify-content: center;
   align-items: center;
   color: #e5e7eb;
+  padding: 32px;
 }

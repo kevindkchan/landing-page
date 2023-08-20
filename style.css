@@ -5,19 +5,30 @@ body {
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #e5e7eb;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  gap: 24px;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.header, .footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+a, .footer {
+  color: #e5e7eb;
 }
 
 .header {
-  background-color: #1f2937;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-logo {
@@ -25,11 +36,6 @@ ul {
   color: #f9faf8;
 }
 
-.link {
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
-.extra-bold {
-  font-weight: 800;
+.footer {
+  justify-content: center;
 }

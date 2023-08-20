@@ -4,14 +4,6 @@ body {
   padding: 0;
 }
 
-img {
-  width: 250px;
-  height: auto;
-  border: 4px solid transparent;
-  border-color: #3882f6;
-  border-radius: 8px;
-}
-
 a {
   text-decoration: none;
   font-size: 18px;
@@ -37,6 +29,14 @@ button, .box {
 
 .extra-bold {
   font-weight: 800;
+}
+
+.image-border {
+  width: 250px;
+  height: auto;
+  border: 4px solid transparent;
+  border-color: #3882f6;
+  border-radius: 8px;
 }
 
 .header, .hero, .footer {
@@ -66,15 +66,35 @@ a, .secondary-text {
 
 .hero {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
   gap: 12px;
 }
 
 .main-text {
   font-size: 48px;
   color: #f9faf8;
+}
+
+.secondary-text {
+  display: flex;
+  flex-basis: 48px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
 }
 
 /* Information section */
@@ -118,7 +138,7 @@ a, .secondary-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 36px;
+  padding: 24px;
   gap: 36px;
 }
 

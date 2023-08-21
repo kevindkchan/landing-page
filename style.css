@@ -17,10 +17,13 @@ ul {
 
 button {
   font-size: 16px;
+  font-weight: 600;
   color: #f9faf8;
   border-color: #3882f6;
   border-radius: 8px;
-  padding: 12px;
+  padding: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 button, .box {
@@ -78,7 +81,7 @@ a, .secondary-text {
 .hero-image {
   width: 500px;
   height: 250px;
-  background-color: gray;
+  background-color: #6d747d;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
@@ -90,6 +93,11 @@ a, .secondary-text {
   flex-direction: column;
   justify-content: stretch;
   align-items: flex-start;
+  gap: 8px;
+}
+
+.hero-button {
+  border-style: solid;
 }
 
 /* Info section */
@@ -136,9 +144,12 @@ a, .secondary-text {
 .quote {
   background-color: #e5e7eb;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding: 48px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 .quote-text {
@@ -153,12 +164,11 @@ a, .secondary-text {
 
 .box {
   border-radius: 10px;
-  margin: 36px;
+  margin: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 24px;
-  gap: 36px;
+  padding: 48px;
 }
 
 .box-text {
@@ -174,6 +184,11 @@ a, .secondary-text {
 .box-subtext {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.box-button {
+  border-color: #f9faf8;
+  border-style: solid;
 }
 
 /* Footer section */

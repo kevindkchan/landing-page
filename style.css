@@ -19,11 +19,12 @@ button {
   font-size: 16px;
   font-weight: 600;
   color: #f9faf8;
-  border-color: #3882f6;
   border-radius: 8px;
   padding: 8px;
   padding-left: 32px;
   padding-right: 32px;
+  display: flex;
+  flex-shrink: 0;
 }
 
 button, .box {
@@ -86,6 +87,7 @@ a, .secondary-text {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .hero-text {
@@ -97,6 +99,7 @@ a, .secondary-text {
 }
 
 .hero-button {
+  border-color: #3882f6;
   border-style: solid;
 }
 
@@ -119,6 +122,7 @@ a, .secondary-text {
   display: flex;
   justify-content: center;
   gap: 48px;
+  flex-wrap: wrap;
 }
 
 .info-image {
@@ -169,6 +173,7 @@ a, .secondary-text {
   justify-content: space-evenly;
   align-items: center;
   padding: 48px;
+  flex-wrap: wrap;
 }
 
 .box-text {

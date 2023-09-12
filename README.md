@@ -1,3 +1,3 @@
 # landing-page
 
-A landing page using HTML and CSS
+A landing page using HTML and CSS flexbox
